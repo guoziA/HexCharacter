@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>zimu</title>
+	<style>
+		#in {
+			margin: 50px 50px;
+		}
+		
+		div #hexOut {
+			width: 330px;
+			height: 100px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+<div id="box">
+	<h1>name you later</h1>
+	<div id="in">
+		<input id="inText"></input>
+		<input id="conv" type="submit" value="proccess" onClick="proccess();"></input>
+	</div>
+	<canvas id="back" width="160" height="160" style="border:1px solid #d3d3d3;background:#ffffff;">canvas</canvas>
+	<canvas id="front" width="160" height="160" style="border:1px solid #d3d3d3;background:#ffffff;">canvas</canvas>
+	
+	<div id="hexOut">
+		
+	</div>
+	
+	<script type="text/javascript" src="./js/getHex.js"></script>
+</div>
+</body>
+
+</html>
