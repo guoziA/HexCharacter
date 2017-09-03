@@ -21,7 +21,7 @@
 	<h1>name you later</h1>
 	<div id="in">
 		<input id="inText"></input>
-		<input id="conv" type="submit" value="proccess" onClick="proccess();"></input>
+		<input id="conv" type="submit" value="GET" onClick="proccess();"></input>
 	</div>
 	<canvas id="back" width="160" height="160" style="border:1px solid #d3d3d3;background:#ffffff;">canvas</canvas>
 	<canvas id="front" width="160" height="160" style="border:1px solid #d3d3d3;background:#ffffff;">canvas</canvas>
@@ -32,6 +32,29 @@
 	
 	<script type="text/javascript" src="./js/getHex.js"></script>
 </div>
+
+	<select id="fontSel">
+	  <option value="Zfull-GB">Zfull-GB</option>
+	  <option value="宋体">宋体</option>
+	  <option value="微软雅黑">微软雅黑</option>
+	  <option value="Arial">Arial</option>
+	  <option value="Tahoma">Tahoma</option>
+	  
+	  
+	  <option value="华文黑体">华文黑体</option>
+	  <option value="Times New Roman">Times New Roman</option>
+	  <option value="Helvetica">Helvetica</option>
+	  <option value="Calibri">Calibri</option>
+	  
+	  <option value="Pixel LCD7">Pixel LCD7 常规</option>
+	  <option value="小">小点阵</option>
+	  <option value="Greaseballs">Greaseballs</option>
+	</select>
+	<input id="siz" type="text" value="150"></input>
+	<input id="posx" type="text" value="10"></input>
+	<input id="posy" type="text" value="130"></input>
+
+
 </body>
 
 </html>
